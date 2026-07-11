@@ -23,8 +23,8 @@ from langchain_core.messages import (
     SystemMessage,
 )
 from langchain_groq import ChatGroq
-from tools.tavily_tool import tavily_search
-from tools.flight_tool import search_flights
+from naviverse.tools.tavily_tool import tavily_search
+from naviverse.tools.flight_tool import search_flights
 
 
 def get_database_url():
